@@ -59,53 +59,44 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     overflow: hidden;
 }
 
 /* Card Container */
-.card-sedans{
+.card{
     display: flex;
     flex-direction: column;
     gap: 1rem;
     height: max-content;
+    padding: 2.5rem 3rem;
+}
+
+.sedans{
     background-color: var(--bright-orange);
-    padding: 2.5rem 3rem;
 }
-.card-suv{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.suv{
     background-color: var(--dark-cyan);
-    padding: 2.5rem 3rem;
 }
-.card-luxury{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.luxury{
     background-color: var(--very-dark-cyan);
-    padding: 2.5rem 3rem;
 
 }
 
 /* Card Image */
-.card-img1{
+.card-img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2.5rem;
+}
+.sedans-img{
     background-image: url(../../assets/images/icon-sedans.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 2.5rem;
 }
-.card-img2{
+.suv-img{
     background-image: url(../../assets/images/icon-suvs.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 2.5rem;
 }
-.card-img3{
+.luxury-img{
     background-image: url(../../assets/images/icon-luxury.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 2.5rem;
 }
 
 /* Card Text Areas */
